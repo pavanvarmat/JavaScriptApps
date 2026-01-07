@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="signUPValidate.js"></script>
+  </head>
+  <body>
+    <form onsubmit="return validate()" action="success.html" method="post">
+      <label for="user_name">UserName : </label>
+      <input type="text" id="usrname" name="user_name" />
+      <br /><!--void tag-->
+      <br />
+
+      <label for="password">Password : </label>
+      <input type="password" id="pass" name="password" />
+      <br />
+      <label for="confPassword">Confirm Password</label>
+      <input type="password" id="cnfpass" name="confPassword" />
+      <br />
+      <!-- <label for="mobile_no">Mobile Nimber</label>
+      <input type="tel" id="mobile" name="mobile_no" /> -->
+      <!-- <button id="loginbt">Login</button> -->
+      <input type="submit" value="login" />
+      <br />
+    </form>
+  </body>
+</html>
